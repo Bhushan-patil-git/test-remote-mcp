@@ -1,11 +1,9 @@
 [project]
-name = "mcp-learning-project"
+name = "expense-tracker-mcp"
 version = "0.1.0"
-description = "MCP learning project"
+description = "Expense tracker MCP server"
 requires-python = ">=3.12"
 dependencies = [
     "aiosqlite>=0.22.1",
-    "fastmcp>=2.3.0",
-    "mcp>=1.0",
-    "uvicorn",
+    "fastmcp>=2.10",
 ]
