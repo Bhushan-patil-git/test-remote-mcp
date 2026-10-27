@@ -1,0 +1,11 @@
+[project]
+name = "mcp-learning-project"
+version = "0.1.0"
+description = "MCP learning project"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastmcp>=2.3.0",
+    "mcp>=1.0",
+    "uvicorn",
+]
